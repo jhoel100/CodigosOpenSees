@@ -1,0 +1,523 @@
+Current Domain Information
+	Current Time: 1
+tCommitted Time: 1
+NODE DATA: NumNodes: 8
+
+numComponents: 8
+ Node: 1
+	Coordinates  : 0 2.5 
+	Disps: 0 0 -0.00762346 
+	 unbalanced Load: 0 0 0 
+	 reaction: -17.6677 74.5209 7.10543e-15 
+	ID : -1 -1 0 
+
+
+ Node: 2
+	Coordinates  : 3.2 7 
+	Disps: 0.0136766 -0.0098624 0.00187715 
+	 unbalanced Load: 0 0 0 
+	 reaction: 6.53699e-13 4.08562e-13 -3.55271e-15 
+	ID : 1 2 3 
+
+
+ Node: 3
+	Coordinates  : 7.6 0 
+	Disps: 0 0 0 
+	 unbalanced Load: 0 0 0 
+	 reaction: -102.332 104.286 184.676 
+	ID : -1 -1 -1 
+
+
+ Node: 4
+	Coordinates  : 7.6 4 
+	Disps: 0.0163759 -0.000166858 -0.00240138 
+	 unbalanced Load: 0 0 0 
+	 reaction: -5.18696e-13 6.18172e-13 1.91847e-13 
+	ID : 4 5 6 
+
+
+ Node: 5
+	Coordinates  : 6.6 6 
+	Disps: 0.0164046 -0.00025326 0.00233679 
+	 unbalanced Load: 0 0 0 
+	 reaction: 2.06057e-13 -5.25802e-13 1.98952e-13 
+	ID : 7 8 9 
+
+
+ Node: 6
+	Coordinates  : 10.1 4 
+	Disps: 0.0163759 -0.00229975 0.00109529 
+	 unbalanced Load: 0 -65 0 
+	 reaction: 0 -4.26326e-14 -2.84217e-14 
+	ID : 10 11 12 
+
+
+ Node: 7
+	Coordinates  : 11.3 0 
+	Disps: 0.0252666 0 0.00222266 
+	 unbalanced Load: 0 0 0 
+	 reaction: 2.1684e-14 52.1928 -4.33681e-14 
+	ID : 13 -1 14 
+
+
+ Node: 8
+	Coordinates  : 11.3 4 
+	Disps: 0.0163759 -8.35084e-05 0.00222266 
+	 unbalanced Load: 0 0 0 
+	 reaction: -2.1684e-14 5.68434e-14 -7.88952e-14 
+	ID : 15 16 17 
+
+ELEMENT DATA: NumEle: 7
+
+numComponents: 7
+ElasticBeam2d: 1
+	Connected Nodes: 1 2 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 50.4923 57.585 7.10543e-15
+	End 2 Forces (P V M): -50.4923 52.8505 13.0715
+
+ElasticBeam2d: 2
+	Connected Nodes: 2 5 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 66.4245 30.5031 -13.0715
+	End 2 Forces (P V M): -66.4245 75.8172 -67.2252
+
+ElasticBeam2d: 3
+	Connected Nodes: 3 4 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 104.286 102.332 184.676
+	End 2 Forces (P V M): -104.286 -42.3323 104.653
+
+ElasticBeam2d: 4
+	Connected Nodes: 4 5 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 100.753 -3.04756 -74.0398
+	End 2 Forces (P V M): -100.753 3.04756 67.2252
+
+ElasticBeam2d: 5
+	Connected Nodes: 4 6 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 0 12.8072 -30.6133
+	End 2 Forces (P V M): 0 -12.8072 62.6313
+
+ElasticBeam2d: 6
+	Connected Nodes: 6 8 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 0 -52.1928 -62.6313
+	End 2 Forces (P V M): 0 52.1928 -3.55271e-14
+
+ElasticBeam2d: 7
+	Connected Nodes: 7 8 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 52.1928 -2.1684e-14 -4.33681e-14
+	End 2 Forces (P V M): -52.1928 2.1684e-14 -4.33681e-14
+
+SP_Constraints: numConstraints: 6
+
+numComponents: 6SP_Constraint: 0	 Node: 1 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 1	 Node: 1 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 2	 Node: 3 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 3	 Node: 3 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 4	 Node: 3 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 5	 Node: 7 DOF: 2 ref value: 0 current value: 0
+
+Pressure_Constraints: numConstraints: 0
+
+numComponents: 0
+MP_Constraints: numConstraints: 0
+
+numComponents: 0
+LOAD PATTERNS: numPatterns: 1
+
+
+numComponents: 1Load Pattern: 201
+  Scale Factor: 1
+Linear Series: constant factor: 1
+  Nodal Loads: 
+
+numComponents: 1Nodal Load: 6 load : 0 -65 0 
+
+  Elemental Loads: 
+
+numComponents: 3Beam2dUniformLoad - tag 0
+  Transverse: -20
+  Axial:      0
+  Element acted on: 1
+Beam2dUniformLoad - tag 1
+  Transverse: -30
+  Axial:      0
+  Element acted on: 2
+Beam2dUniformLoad - tag 2
+  Transverse: -15
+  Axial:      0
+  Element acted on: 3
+
+  Single Point Constraints: 
+
+numComponents: 0
+PARAMETERS: numParameters: 0
+
+
+numComponents: 0Current Domain Information
+	Current Time: 1
+tCommitted Time: 1
+NODE DATA: NumNodes: 8
+
+numComponents: 8
+ Node: 1
+	Coordinates  : 0 2.5 
+	Disps: 0 0 -0.00762346 
+	 unbalanced Load: 0 0 0 
+	 reaction: -17.6677 74.5209 7.10543e-15 
+	ID : -1 -1 0 
+
+
+ Node: 2
+	Coordinates  : 3.2 7 
+	Disps: 0.0136766 -0.0098624 0.00187715 
+	 unbalanced Load: 0 0 0 
+	 reaction: 6.53699e-13 4.08562e-13 -3.55271e-15 
+	ID : 1 2 3 
+
+
+ Node: 3
+	Coordinates  : 7.6 0 
+	Disps: 0 0 0 
+	 unbalanced Load: 0 0 0 
+	 reaction: -102.332 104.286 184.676 
+	ID : -1 -1 -1 
+
+
+ Node: 4
+	Coordinates  : 7.6 4 
+	Disps: 0.0163759 -0.000166858 -0.00240138 
+	 unbalanced Load: 0 0 0 
+	 reaction: -5.18696e-13 6.18172e-13 1.91847e-13 
+	ID : 4 5 6 
+
+
+ Node: 5
+	Coordinates  : 6.6 6 
+	Disps: 0.0164046 -0.00025326 0.00233679 
+	 unbalanced Load: 0 0 0 
+	 reaction: 2.06057e-13 -5.25802e-13 1.98952e-13 
+	ID : 7 8 9 
+
+
+ Node: 6
+	Coordinates  : 10.1 4 
+	Disps: 0.0163759 -0.00229975 0.00109529 
+	 unbalanced Load: 0 -65 0 
+	 reaction: 0 -4.26326e-14 -2.84217e-14 
+	ID : 10 11 12 
+
+
+ Node: 7
+	Coordinates  : 11.3 0 
+	Disps: 0.0252666 0 0.00222266 
+	 unbalanced Load: 0 0 0 
+	 reaction: 2.1684e-14 52.1928 -4.33681e-14 
+	ID : 13 -1 14 
+
+
+ Node: 8
+	Coordinates  : 11.3 4 
+	Disps: 0.0163759 -8.35084e-05 0.00222266 
+	 unbalanced Load: 0 0 0 
+	 reaction: -2.1684e-14 5.68434e-14 -7.88952e-14 
+	ID : 15 16 17 
+
+ELEMENT DATA: NumEle: 7
+
+numComponents: 7
+ElasticBeam2d: 1
+	Connected Nodes: 1 2 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 50.4923 57.585 7.10543e-15
+	End 2 Forces (P V M): -50.4923 52.8505 13.0715
+
+ElasticBeam2d: 2
+	Connected Nodes: 2 5 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 66.4245 30.5031 -13.0715
+	End 2 Forces (P V M): -66.4245 75.8172 -67.2252
+
+ElasticBeam2d: 3
+	Connected Nodes: 3 4 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 104.286 102.332 184.676
+	End 2 Forces (P V M): -104.286 -42.3323 104.653
+
+ElasticBeam2d: 4
+	Connected Nodes: 4 5 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 100.753 -3.04756 -74.0398
+	End 2 Forces (P V M): -100.753 3.04756 67.2252
+
+ElasticBeam2d: 5
+	Connected Nodes: 4 6 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 0 12.8072 -30.6133
+	End 2 Forces (P V M): 0 -12.8072 62.6313
+
+ElasticBeam2d: 6
+	Connected Nodes: 6 8 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 0 -52.1928 -62.6313
+	End 2 Forces (P V M): 0 52.1928 -3.55271e-14
+
+ElasticBeam2d: 7
+	Connected Nodes: 7 8 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 52.1928 -2.1684e-14 -4.33681e-14
+	End 2 Forces (P V M): -52.1928 2.1684e-14 -4.33681e-14
+
+SP_Constraints: numConstraints: 6
+
+numComponents: 6SP_Constraint: 0	 Node: 1 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 1	 Node: 1 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 2	 Node: 3 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 3	 Node: 3 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 4	 Node: 3 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 5	 Node: 7 DOF: 2 ref value: 0 current value: 0
+
+Pressure_Constraints: numConstraints: 0
+
+numComponents: 0
+MP_Constraints: numConstraints: 0
+
+numComponents: 0
+LOAD PATTERNS: numPatterns: 1
+
+
+numComponents: 1Load Pattern: 201
+  Scale Factor: 1
+Linear Series: constant factor: 1
+  Nodal Loads: 
+
+numComponents: 1Nodal Load: 6 load : 0 -65 0 
+
+  Elemental Loads: 
+
+numComponents: 3Beam2dUniformLoad - tag 0
+  Transverse: -20
+  Axial:      0
+  Element acted on: 1
+Beam2dUniformLoad - tag 1
+  Transverse: -30
+  Axial:      0
+  Element acted on: 2
+Beam2dUniformLoad - tag 2
+  Transverse: -15
+  Axial:      0
+  Element acted on: 3
+
+  Single Point Constraints: 
+
+numComponents: 0
+PARAMETERS: numParameters: 0
+
+
+numComponents: 0Current Domain Information
+	Current Time: 1
+tCommitted Time: 1
+NODE DATA: NumNodes: 8
+
+numComponents: 8
+ Node: 1
+	Coordinates  : 0 2.5 
+	Disps: 0 0 -0.00762346 
+	 unbalanced Load: 0 0 0 
+	 reaction: -17.6677 74.5209 7.10543e-15 
+	ID : -1 -1 0 
+
+
+ Node: 2
+	Coordinates  : 3.2 7 
+	Disps: 0.0136766 -0.0098624 0.00187715 
+	 unbalanced Load: 0 0 0 
+	 reaction: 6.53699e-13 4.08562e-13 -3.55271e-15 
+	ID : 1 2 3 
+
+
+ Node: 3
+	Coordinates  : 7.6 0 
+	Disps: 0 0 0 
+	 unbalanced Load: 0 0 0 
+	 reaction: -102.332 104.286 184.676 
+	ID : -1 -1 -1 
+
+
+ Node: 4
+	Coordinates  : 7.6 4 
+	Disps: 0.0163759 -0.000166858 -0.00240138 
+	 unbalanced Load: 0 0 0 
+	 reaction: -5.18696e-13 6.18172e-13 1.91847e-13 
+	ID : 4 5 6 
+
+
+ Node: 5
+	Coordinates  : 6.6 6 
+	Disps: 0.0164046 -0.00025326 0.00233679 
+	 unbalanced Load: 0 0 0 
+	 reaction: 2.06057e-13 -5.25802e-13 1.98952e-13 
+	ID : 7 8 9 
+
+
+ Node: 6
+	Coordinates  : 10.1 4 
+	Disps: 0.0163759 -0.00229975 0.00109529 
+	 unbalanced Load: 0 -65 0 
+	 reaction: 0 -4.26326e-14 -2.84217e-14 
+	ID : 10 11 12 
+
+
+ Node: 7
+	Coordinates  : 11.3 0 
+	Disps: 0.0252666 0 0.00222266 
+	 unbalanced Load: 0 0 0 
+	 reaction: 2.1684e-14 52.1928 -4.33681e-14 
+	ID : 13 -1 14 
+
+
+ Node: 8
+	Coordinates  : 11.3 4 
+	Disps: 0.0163759 -8.35084e-05 0.00222266 
+	 unbalanced Load: 0 0 0 
+	 reaction: -2.1684e-14 5.68434e-14 -7.88952e-14 
+	ID : 15 16 17 
+
+ELEMENT DATA: NumEle: 7
+
+numComponents: 7
+ElasticBeam2d: 1
+	Connected Nodes: 1 2 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 50.4923 57.585 7.10543e-15
+	End 2 Forces (P V M): -50.4923 52.8505 13.0715
+
+ElasticBeam2d: 2
+	Connected Nodes: 2 5 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 66.4245 30.5031 -13.0715
+	End 2 Forces (P V M): -66.4245 75.8172 -67.2252
+
+ElasticBeam2d: 3
+	Connected Nodes: 3 4 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 104.286 102.332 184.676
+	End 2 Forces (P V M): -104.286 -42.3323 104.653
+
+ElasticBeam2d: 4
+	Connected Nodes: 4 5 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 100.753 -3.04756 -74.0398
+	End 2 Forces (P V M): -100.753 3.04756 67.2252
+
+ElasticBeam2d: 5
+	Connected Nodes: 4 6 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 0 12.8072 -30.6133
+	End 2 Forces (P V M): 0 -12.8072 62.6313
+
+ElasticBeam2d: 6
+	Connected Nodes: 6 8 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 0 -52.1928 -62.6313
+	End 2 Forces (P V M): 0 52.1928 -3.55271e-14
+
+ElasticBeam2d: 7
+	Connected Nodes: 7 8 
+	CoordTransf: 1
+	mass density:  0, cMass: 0
+	release code:  0
+	End 1 Forces (P V M): 52.1928 -2.1684e-14 -4.33681e-14
+	End 2 Forces (P V M): -52.1928 2.1684e-14 -4.33681e-14
+
+SP_Constraints: numConstraints: 6
+
+numComponents: 6SP_Constraint: 0	 Node: 1 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 1	 Node: 1 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 2	 Node: 3 DOF: 1 ref value: 0 current value: 0
+SP_Constraint: 3	 Node: 3 DOF: 2 ref value: 0 current value: 0
+SP_Constraint: 4	 Node: 3 DOF: 3 ref value: 0 current value: 0
+SP_Constraint: 5	 Node: 7 DOF: 2 ref value: 0 current value: 0
+
+Pressure_Constraints: numConstraints: 0
+
+numComponents: 0
+MP_Constraints: numConstraints: 0
+
+numComponents: 0
+LOAD PATTERNS: numPatterns: 1
+
+
+numComponents: 1Load Pattern: 201
+  Scale Factor: 1
+Linear Series: constant factor: 1
+  Nodal Loads: 
+
+numComponents: 1Nodal Load: 6 load : 0 -65 0 
+
+  Elemental Loads: 
+
+numComponents: 3Beam2dUniformLoad - tag 0
+  Transverse: -20
+  Axial:      0
+  Element acted on: 1
+Beam2dUniformLoad - tag 1
+  Transverse: -30
+  Axial:      0
+  Element acted on: 2
+Beam2dUniformLoad - tag 2
+  Transverse: -15
+  Axial:      0
+  Element acted on: 3
+
+  Single Point Constraints: 
+
+numComponents: 0
+PARAMETERS: numParameters: 0
+
+
+numComponents: 0
